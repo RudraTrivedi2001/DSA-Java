@@ -1,42 +1,48 @@
-# DSA in Java - Learning and Problem Solving Repository
+# DSA in Java - Learning and Problem Solving Repository  
 
-Welcome to my **Data Structures and Algorithms (DSA)** repository! This repo is a work-in-progress collection of programs that reflect my journey in mastering DSA using Java. I update it regularly as I learn new concepts and improve my problem-solving skills.  
+Welcome to my **Data Structures and Algorithms (DSA)** repository! This repository is a collection of my Java programs, showcasing my journey in mastering DSA concepts and improving my problem-solving skills. The programs are organized by topic, and new implementations are added weekly.  
 
-## Repository Overview
+## Repository Overview  
 
-This repository contains:  
-- Implementations of fundamental and advanced data structures.  
-- Solutions to common DSA problems and challenges.  
-- A log of my continuous progress in learning DSA and improving coding efficiency.
+This repository includes:  
+- **Linked Lists**  
+- **Merge Sort**  
+- **Recursion**  
+- **Stacks**  
+- Solutions to fundamental and intermediate DSA problems.  
 
-## Current Topics Implemented
+### Folder Structure  
 
-### Data Structures
-1. **Stack**  
-   - Implementation of stack using arrays.  
-   - Common operations: `push`, `pop`, `peek`, and checking for underflow/overflow.  
+The repository is organized into folders based on topics, with each folder containing relevant Java files:  
 
-2. **Linked List**  
-   - Singly Linked List: Node creation, insertion, deletion, and traversal.  
-   - Additional problems: Reversing a linked list, detecting cycles.  
+#### **LinkedList/java/in**  
+- **LinkedList.java**: Implementation of a singly linked list with basic operations such as insertion, deletion, and traversal.  
 
-3. **Sorting Algorithms**  
-   - **MergeSort**: Implementation of divide-and-conquer sorting with examples.  
+#### **MergeSort/java/in**  
+- **MergeSort.java**: Standard implementation of Merge Sort using divide-and-conquer.  
+- **MergeSort2.java**: Alternate approach to implementing Merge Sort with additional examples.  
 
-### Recursion
-- Implementation of recursive solutions for common problems, including:  
-  - Calculating factorial of a number.  
-  - Finding the nth Fibonacci number.  
-  - Solving the Tower of Hanoi problem.  
-  - Recursively reversing a string or an array.  
+#### **Recursion/Java/in**  
+- **CheckSortedArray.java**: Program to check if an array is sorted using recursion.  
+- **Factorial.java**: Recursive function to calculate the factorial of a number.  
+- **Fibonacci.java**: Find the nth Fibonacci number using recursion.  
+- **FindXpowerN.java**: Calculate \(x^n\) using recursion.  
+- **FirstOccurence.java**: Find the first occurrence of an element in an array using recursion.  
+- **LastOccurance.java**: Find the last occurrence of an element in an array using recursion.  
+- **PrintNumberInDecOrder.java**: Print numbers from \(n\) to 1 in decreasing order.  
+- **PrintNumberIncrOrder.java**: Print numbers from 1 to \(n\) in increasing order.  
+- **SumOfNaturalNumbers.java**: Calculate the sum of the first \(n\) natural numbers using recursion.  
 
-### Problem Solving
-- Basic DSA questions to build a strong foundation.  
-- Examples include finding duplicates in an array, reversing a string using a stack, and merging two sorted linked lists.
+#### **Stack/java/in**  
+- **InsertAtBottom.java**: Insert an element at the bottom of a stack using recursion.  
+- **LinkedListUsingStack.java**: Simulate a linked list using a stack.  
+- **ReverseStack.java**: Reverse a stack using recursion.  
+- **ReverseStringUsingStack.java**: Reverse a string using a stack.  
+- **StackCollectionFramework.java**: Demonstration of Java's `Stack` class from the collection framework.  
+- **StackUsingArrayList.java**: Implementation of a stack using Java's `ArrayList`.  
 
-## How to Use This Repository
+## How to Use This Repository  
 
-1. Clone the repository to your local system:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-
+1. Clone this repository to your local machine:  
+   ```bash  
+   git clone https://github.com/your-username/your-repo-name.git  
