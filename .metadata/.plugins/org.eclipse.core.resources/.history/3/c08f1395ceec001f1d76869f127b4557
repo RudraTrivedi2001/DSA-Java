@@ -1,0 +1,10 @@
+package com.Arrays.java.in;
+
+public class TrappingRainwater {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

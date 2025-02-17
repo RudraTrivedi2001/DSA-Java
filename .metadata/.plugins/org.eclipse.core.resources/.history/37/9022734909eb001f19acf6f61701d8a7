@@ -1,0 +1,39 @@
+package com.Arrays.java.in;
+
+
+
+public class PrintSubArray 
+{
+	
+	public static void subArray(int arr[]) 
+	{
+		
+//		
+//		int initial = arr[i];
+//		int end = arr[i+1];
+		
+		for (int i = 0; i < arr.length; i++)
+		{
+			for (int j = 0; j < arr.length; j++) 
+			{
+				for (int k = i; k <= i; k++) 
+				{
+			
+			System.out.print(arr[j]);
+			
+		}	
+		System.out.println();
+			
+		}
+	}
+		
+}
+
+	
+	public static void main(String[] args)
+	{
+		int arr[] = {2,4,6,8,10};
+		subArray(arr);
+	}
+	
+}
